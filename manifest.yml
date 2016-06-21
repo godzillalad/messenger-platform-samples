@@ -1,0 +1,8 @@
+applications:
+- path: node/
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: GalwayBot
+  host: galwaybot
+  disk_quota: 1024M
