@@ -221,7 +221,7 @@ function receivedMessage(event) {
         break;
 
       default:
-        sendTextMessage(senderID, "I'm an echo bot here is what you said" + messageText);
+        sendTextMessage(senderID, "I'm an echo bot here is what you said " + messageText);
     }
   } else if (messageAttachments) {
     sendTextMessage(senderID, "Message with attachment received");
